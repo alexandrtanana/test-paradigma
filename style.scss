@@ -1,0 +1,150 @@
+// @function vw($value, $base: 1920) {
+//     @return $value / $base * 100vw;
+// }
+
+$mobile: 992px;
+// @media (max-width: $mobile)
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+.page-header {
+    background-image: url(..//img/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 38px;
+}
+
+.container {
+    max-width: 1720px ;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.page-header__top {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+// .contacts-logo {
+// }
+
+// .contacts-logo__img {
+// }
+
+// .contacts-logo__desc {
+// }
+
+.contacts-contact {
+    display: flex;
+    align-items: center;
+}
+
+// .contacts-contact__wrap {
+// }
+
+// .contacts-contact__map {
+// }
+
+// .contacts-contact__address {
+// }
+
+// .contacts-contact__btn {
+// }
+
+// .contacts-contact__button {
+// }
+
+// .contacts-contact__social {
+// }
+
+// .contacts-contact__social-link-tel-wrap {
+// }
+
+// .contacts-contact__social-link-tel {
+// }
+
+// .contacts-contact__social-link-wrap {
+// }
+
+// .contacts-contact__social-link {
+// }
+
+// .contacts-contact__social-link-svg {
+// }
+
+// .page-header__nav {
+// }
+
+.page-header__list {
+    display: flex;
+}
+
+// .page-header__list-link {
+// }
+
+// ---------------------контент шапки-------------------------------------
+
+// .page-header__content {
+// }
+
+// .page-header__content-title {
+// }
+
+// .page-header__content-list {
+// }
+
+// .page-header__content-item {
+// }
+
+// .page-header__content-wrap {
+// }
+
+// .page-header__content-discount {
+// }
+
+// .page-header__content-discount-desc {
+// }
+
+// .page-header__content-discount-wrap {
+// }
+
+// .page-header__content-discount-link {
+// }
+
+// .page-header__content-discount-svg {
+// }
+
+
+// .page-header__content-discount-text {
+// }
+
+// .page-header__content-license {
+// }
+
+// .page-header__content-license-text {
+// }
+
+// .page-header__content-license-div {
+// }
+
+// .page-header__content-license-img {
+// }
+
+// .page-header__content-license-link {
+// }
